@@ -35,7 +35,7 @@ Aluno.belongsToMany(models.hardskill,{
     foreignKey:{
         name:'id_aluno'
     },
-    as:'haedskills'
+    as:'hardskills'
 })
 
 }

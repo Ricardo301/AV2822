@@ -1,6 +1,5 @@
 const {DataTypes} = require ('sequelize')
-const models = require('.')
-const usuarioRoutes = require('../../routes/usuario.routes')
+
 
 const name = require('path').basename(__filename.replace(".model",""),".js")
 
